@@ -1,0 +1,14 @@
+.gallery-container{
+  margin: 5em;
+  display: grid;
+  grid-template-columns:repeat(4, 25%);
+  grid-auto-rows: minmax(400px, auto);
+  gap: 20px;
+  justify-content: center;
+}
+
+article{
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px 0px grey;
+  text-align: center;
+}
