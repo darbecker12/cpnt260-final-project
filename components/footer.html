@@ -30,6 +30,8 @@
       /* Footer Main Flexbox */
       display: flex;
       flex-direction: column;
+
+      text-align: center;
     }
 
     .footer-logo-socials {
@@ -70,6 +72,24 @@
       /* Footer Nav List Styling*/
       list-style: none;
       padding-left: 0;
+    }
+
+    .footer-copyright {
+      /* Footer Copyright Text */
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 40em) {
+      .footer-area {
+        /* Footer Main Flexbox */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        max-width: 800px;
+
+        margin: auto;
+      }
     }
   </style>
 </head>
