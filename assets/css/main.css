@@ -10,6 +10,7 @@ body {
 a, a:visited {
   /* Anchor Link Styling */
   text-decoration: none;
+  color: black;
 }
 
 .header-area {
