@@ -129,6 +129,37 @@ footer {
     text-align: center;
 }
 
+/*-------------------404 page css--------------*/
+
+main{
+  flex: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.616)), url('../images/background/733243111-huge.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  max-width: 40ch;
+  text-align: center;
+
+  color: white;
+  font-size: clamp(50px, 1vw, 128px);
+}
+
+/*----------------------------------------------*/
+
 @media only screen and (min-width: 40em) {
   .header-area {
     /* Header Logo-Nav Main Flexbox */
