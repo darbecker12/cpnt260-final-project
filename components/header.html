@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Component</title>
+  <style>
+    body {
+      /* Base Layout Styling */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+      margin: 0;
+    }
+
+    a, a:visited {
+      /* Anchor Link Styling */
+      text-decoration: none;
+    }
+
+    .header-area {
+      /* Header Logo-Nav Main Flexbox */
+      display: flex;
+      flex-direction: column;
+
+      background-color: lightgray;
+
+      text-align: center;
+    }
+
+    .header-logo-name {
+      /* Header Team Name and Logo Flexbox */
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .header-logo-name p {
+      /* Header Team Name Styling */
+      font-size: 18px;
+    }
+
+    .header-logo-name img {
+      /* Header Logo Styling */
+      max-width: 30px;
+    }
+
+    .header-nav a {
+      /* Header Nav Button Styling */
+      display: block;
+
+      padding: 1em;
+
+      background-color: black;
+
+      color: white;
+    }
+
+    .header-nav ul {
+      /* Header Nav List Styling */
+      list-style: none;
+
+      padding-left: 0;
+
+      margin: auto;
+    }
+
+    .header-nav a:hover {
+      /* Header Nav Button Hover State Styling */
+      background-color: red;
+      transition: all 200ms ease-out;
+    }
+
+    @media only screen and (min-width: 40em) {
+      .header-area {
+        /* Header Logo-Nav Main Flexbox */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-logo-name {
+        /* Header Team Name and Logo Flexbox */
+        padding-left: 1em;
+      }
+
+      .header-logo-name p {
+        /* Header Team Name Styling */
+        width: 14ch;
+
+        margin: auto;
+      }
+
+      .header-nav ul {
+        /* Header Nav List Styling */
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <section class="header-area">
+      <div class="header-logo-name">
+        <img src="placeholder.svg" alt="Team Logo">
+        <p>Team Name</p>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">Main Page</a></li>
+          <li><a href="#">Team Page</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Nav4</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+</body>
+</html>
