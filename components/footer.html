@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Footer Component</title>
+  <style>
+    body {
+      /* Base Layout Styling */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+      margin: 0;
+    }
+
+    a, a:visited {
+      /* Anchor Link Styling */
+      text-decoration: none;
+    }
+
+    footer {
+      /* Footer Area */
+      background-color: lightgray;
+    }
+
+    .footer-area {
+      /* Footer Main Flexbox */
+      display: flex;
+      flex-direction: column;
+
+      text-align: center;
+    }
+
+    .footer-logo-socials {
+      /* Footer Logo and Socials Flexbox*/
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-logo-name {
+      /* Footer Logo and Team Name */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .footer-logo-name img {
+      max-width: 30px;
+    }
+
+    .footer-socials {
+      /* Footer Socials Section */
+      text-align: center;
+    }
+
+    .fa {
+      /* Footer Social Logos */
+      width: 20px;
+    }
+
+    .fa:hover {
+      /* Footer Socials Hover State */
+      opacity: 0.5;
+    }
+
+    .footer-nav a {
+      /* Footer Nav Button Styling */
+      display: block;
+      padding: 0.5em;
+    }
+
+    .footer-nav ul {
+      /* Footer Nav List Styling*/
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .footer-copyright {
+      /* Footer Copyright Text */
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 40em) {
+      .footer-area {
+        /* Footer Main Flexbox */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        max-width: 800px;
+
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <div class="footer-area">
+      <div class="footer-logo-socials">
+        <div class="footer-logo-name">
+          <img src="placeholder.svg" alt="Team Logo">
+          <p>Team Name</p> 
+        </div>
+        <div class="footer-socials">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">Main Page</a></li>
+          <li><a href="#">Team Page</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Nav4</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-copyright">Copyright &copy; 2022 Team Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
