@@ -6,31 +6,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Footer Component</title>
+  <style>
+    body {
+      /* Base Layout Styling */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+      margin: 0;
+    }
+
+    a, a:visited {
+      /* Anchor Link Styling */
+      text-decoration: none;
+    }
+
+    footer {
+      /* Footer Area */
+      background-color: lightgray;
+    }
+
+    .footer-area {
+      /* Footer Main Flexbox */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-logo-socials {
+      /* Footer Logo and Socials Flexbox*/
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-logo-name {
+      /* Footer Logo and Team Name */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-socials {
+      /* Footer Socials Section */
+      text-align: center;
+    }
+
+    .fa {
+      /* Footer Social Logos */
+      width: 20px;
+    }
+
+    .fa:hover {
+      /* Footer Socials Hover State */
+      opacity: 0.5;
+    }
+
+    .footer-nav a {
+      /* Footer Nav Button Styling */
+      display: block;
+      padding: 0.5em;
+    }
+
+    .footer-nav ul {
+      /* Footer Nav List Styling*/
+      list-style: none;
+      padding-left: 0;
+    }
+  </style>
 </head>
 <body>
   <footer>
     <div class="footer-area">
-      <div class="bottom-logo-socials">
-        <div class="bottom-logo-name">
+      <div class="footer-logo-socials">
+        <div class="footer-logo-name">
           <p>Team Name</p>
           <img src="#" alt="Team Logo">
         </div>
-        <div class="socials">
+        <div class="footer-socials">
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
         </div>
       </div>
-      <nav>
+      <nav class="footer-nav">
         <ul>
-          <li><a href="#">Nav1</a></li>
-          <li><a href="#">Nav2</a></li>
-          <li><a href="#">Nav3</a></li>
+          <li><a href="#">Main Page</a></li>
+          <li><a href="#">Team Page</a></li>
+          <li><a href="#">Gallery</a></li>
           <li><a href="#">Nav4</a></li>
-          <li><a href="#">Nav5</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
     </div>
-    <p>Copyright &copy; 2022 Team Name. All rights reserved.</p>
+    <p class="footer-copyright">Copyright &copy; 2022 Team Name. All rights reserved.</p>
   </footer>
 </body>
 </html>
