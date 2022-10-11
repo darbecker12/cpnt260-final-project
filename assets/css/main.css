@@ -68,7 +68,7 @@ a, a:visited {
 
 .header-nav a.active-page {
   /* Header Nav Button Current Page Highlight */
-  box-shadow: inset 0 3px 0 0 blue;
+  font-weight: 700;
 }
 
 footer {
@@ -189,6 +189,13 @@ main{
     /* Header Nav List Styling */
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .header-nav a.active-page {
+    /* Header Nav Button Current Page Highlight */
+    font-weight: normal;
+
+    box-shadow: inset 0 3px 0 0 blue;
   }
 
   .footer-area {
