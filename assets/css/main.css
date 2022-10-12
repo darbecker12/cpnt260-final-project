@@ -23,21 +23,55 @@ a, a:visited {
   text-align: center;
 }
 
+.header-menu-bar {
+  /* Header Team Name/Logo and Hamburger Menu Flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu-link {
+  /* Hamburger Menu Icon */
+  width: 30px;
+  padding: 1em;
+
+  transition-duration: 0.5s;
+
+  color: #fff;
+}
+
 .header-logo-name {
-  /* Header Team Name and Logo Flexbox */
+  /* Header Team Name/Logo Flexbox */
   display: flex;
   justify-content: center;
   gap: 10px;
+
+  padding-left: 1em;
 }
 
 .header-logo-name p {
   /* Header Team Name Styling */
   font-size: 18px;
+
+  width: 14ch;
 }
 
 .header-logo-name img {
   /* Header Logo Styling */
   max-width: 30px;
+}
+
+.header-nav {
+  /* Header Navigation Links */
+  clear: both;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-out;
+}
+
+.header-nav.open {
+  /* Header Navigation Links Open State */
+  max-height: 20em;
 }
 
 .header-nav a {
@@ -207,6 +241,16 @@ footer {
     width: 14ch;
 
     margin: auto;
+  }
+
+  .header-menu-link {
+    /* Hamburger Menu Icon */
+    display: none;
+  }
+
+  .header-nav {
+    /* Header Navigation Links */
+    max-height: none;
   }
 
   .header-nav ul {
