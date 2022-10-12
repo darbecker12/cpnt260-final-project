@@ -5,6 +5,11 @@ body {
   min-height: 100vh;
 
   margin: 0;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/733243111-huge.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 a, a:visited {
@@ -17,8 +22,6 @@ a, a:visited {
   /* Header Logo-Nav Main Flexbox */
   display: flex;
   flex-direction: column;
-
-  background-color: lightgray;
 
   text-align: center;
 }
@@ -52,8 +55,9 @@ a, a:visited {
 .header-logo-name p {
   /* Header Team Name Styling */
   font-size: 18px;
-
   width: 14ch;
+
+  color: white;
 }
 
 .header-logo-name img {
@@ -77,10 +81,7 @@ a, a:visited {
 .header-nav a {
   /* Header Nav Button Styling */
   display: block;
-
   padding: 1em;
-
-  background-color: black;
 
   color: white;
 }
@@ -230,10 +231,6 @@ header .hero{
 
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/733243111-huge.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   
   /*fonts*/
   color: #efefef;
