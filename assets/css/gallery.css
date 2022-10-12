@@ -2,6 +2,11 @@ body{
   background: linear-gradient(black,grey);
 }
 
+main{
+  max-width: 1400px;
+  margin: auto;
+}
+
 .gallery-container{
   margin: 5em;
   display: grid;
