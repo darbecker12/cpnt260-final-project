@@ -11,7 +11,7 @@ body{
   justify-content: center;
 }
 
-a, .keyboard{
+.keyboard{
   border: 1px solid black;
   box-shadow: 2px 2px 5px 0px pink;
   text-align: center;
@@ -20,15 +20,14 @@ a, .keyboard{
   background: rgba(250, 3, 196, 0.1);
 }
 
-img{
+.gallery-container img{
   width:400px;
   height: 300px;
 }
 
-a:hover{
+.keyboard:hover{
   background-color: grey;
   border: 2px solid blue;
-  
 }
 
 @media (max-width: 600px){
