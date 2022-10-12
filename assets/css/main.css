@@ -223,6 +223,8 @@ footer {
 
 /*------------------Hero--------------------*/
 header .hero{
+  display: flex;
+
   margin: 0;
   padding: 0;
 
@@ -238,7 +240,7 @@ header .hero{
 }
 
 .info{
-  padding-top: 20rem;
+  padding-top: 5rem;
   
   /*flex*/
   margin: 0 auto;
