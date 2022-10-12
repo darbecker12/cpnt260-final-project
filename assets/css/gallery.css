@@ -20,14 +20,20 @@ main{
   border: 1px solid black;
   box-shadow: 2px 2px 5px 0px pink;
   text-align: center;
+  background: rgba(250, 3, 196, 0.1);
+}
+
+.keyboard h2, .keyboard p{
+  text-align: center;
   text-decoration: none;
   color: white;
-  background: rgba(250, 3, 196, 0.1);
 }
 
 .gallery-container img{
   width: 75%;
   height: 60%;
+
+  object-fit: cover;
 }
 
 .keyboard:hover{
@@ -44,8 +50,4 @@ main{
     gap: 20px;
     justify-content: center;
 }
-  img{
-    width: 75%;
-    height: 60%;
-  }
 }
