@@ -1,14 +1,43 @@
+body{
+  background: linear-gradient(black,grey);
+}
+
 .gallery-container{
   margin: 5em;
   display: grid;
-  grid-template-columns:repeat(4, 25%);
+  grid-template-columns:repeat(auto-fill, minmax(450px, auto));
   grid-auto-rows: minmax(400px, auto);
   gap: 20px;
   justify-content: center;
 }
 
-article{
+a, .keyboard{
   border: 1px solid black;
-  box-shadow: 2px 2px 5px 0px grey;
+  box-shadow: 2px 2px 5px 0px pink;
   text-align: center;
+  text-decoration: none;
+  color: white;
+  background: rgba(250, 3, 196, 0.1);
+}
+
+img{
+  width:400px;
+  height: 300px;
+}
+
+a:hover{
+  background-color: grey;
+  border: 2px solid blue;
+  
+}
+
+@media (max-width: 600px){
+  .gallery-container{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: minmax(400px, auto);
+    gap: 20px;
+    justify-content: center;
+}
 }
