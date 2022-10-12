@@ -6,3 +6,15 @@ $(function(){
     }
   });
 });
+
+// Hamburger Menu
+$(document).ready(function() {
+  var $menu = $("#menu"),
+  $menulink = $(".header-menu-link");
+  
+  $menulink.click(function() {
+    $menulink.toggleClass("open");
+    $menu.toggleClass("open");
+    return false;
+  });
+});
