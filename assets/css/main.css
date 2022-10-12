@@ -9,7 +9,9 @@ body {
   min-height: 100vh;
 
   margin: 0;
+}
 
+.full-page-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/733243111-huge.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -28,6 +30,10 @@ a, a:visited {
   flex-direction: column;
 
   text-align: center;
+}
+
+.header-area-color {
+  background-color: gray;
 }
 
 .header-menu-bar {
@@ -203,6 +209,8 @@ footer {
 .contain h1{
   font-size: 4rem;
   margin-bottom: 1rem;
+
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .contain a{
@@ -255,6 +263,8 @@ header .hero{
   font-size: 4rem;
   margin-bottom: 1rem;
   color: #Deb992; 
+
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .info a{
