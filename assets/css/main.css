@@ -267,12 +267,12 @@ header .hero{
 
 .info{
   padding-top: 5rem;
-  
+  max-width: 40ch;
+
   /*flex*/
-  
   margin: 0 auto;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
 }
 
@@ -316,6 +316,7 @@ header .hero{
 .info a:hover{
   padding-right: 24px;
   padding-left:8px;
+  background-color: white;
 }
 .info a:hover::after{
   opacity: 1;
@@ -334,6 +335,7 @@ header .hero{
   margin: 0 auto;
   padding: 5rem;
   position: relative;
+
 }
 
 /*spacing and color for the box*/
@@ -342,6 +344,9 @@ header .hero{
   margin: 0 auto;
   width: 100%;
   
+  justify-content: center;
+  align-items: center;
+
   background-color: white;
   box-shadow: 2px 2px 2px 2px #88888877; 
 }
@@ -457,4 +462,7 @@ header .hero{
     margin: auto;
   }
 
+  .info h1{
+    font-size: 1px;
+  }
 }
