@@ -41,8 +41,8 @@ main h1{
 }
 
 .gallery-container img{
-  width: 75%;
-  height: 60%;
+  width: 85%;
+  height: 55%;
 
   object-fit: cover;
 }
