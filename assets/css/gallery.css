@@ -7,8 +7,13 @@ main{
   margin: auto;
 }
 
+main h1{
+  color: white;
+  text-align: center;
+}
+
 .gallery-container{
-  margin: 5em;
+  margin: 0 3em;
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(400px, auto));
   grid-auto-rows: minmax(400px, auto);
@@ -30,6 +35,10 @@ main{
   color: white;
 }
 
+.keyboard p {
+  padding: 0 1em;
+}
+
 .gallery-container img{
   width: 75%;
   height: 60%;
@@ -44,7 +53,7 @@ main{
 
 @media (max-width: 600px){
   .gallery-container{
-    margin: 5em;
+    margin: 0 1.5em;
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-auto-rows: minmax(400px, auto);
