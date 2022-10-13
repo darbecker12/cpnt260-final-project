@@ -329,21 +329,20 @@ header .hero{
 
 /*positioning for the entire form div*/
 .form{
-  max-width: 20vw;
+  max-width: 45vw;
   width: 100%;
-  margin: 0 auto;
-  padding: 5rem;
-  position: relative;
+  margin: 2em auto;
+  padding: 2em;
+
+  box-shadow: 2px 2px 2px 2px #88888877; 
 }
 
 /*spacing and color for the box*/
 .contactform{
-  padding: 2rem;
   margin: 0 auto;
   width: 100%;
   
   background-color: white;
-  box-shadow: 2px 2px 2px 2px #88888877; 
 }
 
 /*spacing for each input types and background color for them*/
@@ -354,7 +353,7 @@ header .hero{
 	padding:10px;
   box-sizing: border-box;
 
-  background:#393e41;
+  background:lightgray;
 }
 
 /*hover state and trasitions for the input types*/
