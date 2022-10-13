@@ -107,7 +107,7 @@ a, a:visited {
 
 .header-nav a:hover {
   /* Header Nav Button Hover State Styling */
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.144);
   transition: all 200ms ease-out;
 }
 
