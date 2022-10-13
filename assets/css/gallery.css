@@ -26,6 +26,7 @@ main{
 .keyboard h2, .keyboard p{
   text-align: center;
   text-decoration: none;
+  font-family: 'Manrope', sans-serif;
   color: white;
 }
 

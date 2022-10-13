@@ -1,0 +1,28 @@
+main{
+  background: linear-gradient(black,grey);
+  min-height: 100vh;
+}
+.team-contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.team{
+  margin-top: 10%;
+  padding: 0.5em;
+  text-align: center; 
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 2px 2px 5px 0px pink;
+  background: rgba(250, 3, 196, 0.1);
+  color: white;
+}
+
+img{
+  height: 50%;
+  width: 50%;  
+  border-radius: 50%;
+}

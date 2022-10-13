@@ -12,7 +12,7 @@ body {
 }
 
 .full-page-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/733243111-huge.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/home-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -186,7 +186,7 @@ footer {
 
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/pexels-soulful-pizza-3715428.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/404-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -210,7 +210,7 @@ footer {
   font-size: 4rem;
   margin-bottom: 1rem;
 
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .contain a{
@@ -330,17 +330,17 @@ header .hero{
 
 /*positioning for the entire form div*/
 .form{
-  max-width: 20vw;
+  max-width: 45vw;
   width: 100%;
-  margin: 0 auto;
-  padding: 5rem;
-  position: relative;
+  margin: 2em auto;
+  padding: 2em;
+
+  box-shadow: 2px 2px 2px 2px #88888877; 
 
 }
 
 /*spacing and color for the box*/
 .contactform{
-  padding: 2rem;
   margin: 0 auto;
   width: 100%;
   
@@ -348,7 +348,6 @@ header .hero{
   align-items: center;
 
   background-color: white;
-  box-shadow: 2px 2px 2px 2px #88888877; 
 }
 
 /*spacing for each input types and background color for them*/
@@ -359,7 +358,7 @@ header .hero{
 	padding:10px;
   box-sizing: border-box;
 
-  background:#393e41;
+  background:lightgray;
 }
 
 /*hover state and trasitions for the input types*/
@@ -460,9 +459,5 @@ header .hero{
     max-width: 800px;
 
     margin: auto;
-  }
-
-  .info h1{
-    font-size: 1px;
   }
 }
