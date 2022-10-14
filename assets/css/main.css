@@ -1,5 +1,6 @@
 *{
   font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
 }
 
 body {
@@ -67,7 +68,7 @@ a, a:visited {
 .header-logo-name p {
   /* Header Team Name Styling */
   font-size: 18px;
-  width: 14ch;
+  width: 11ch;
 
   color: white;
 }
@@ -138,16 +139,17 @@ footer {
 }
 
 .footer-logo-name {
-  /* Footer Logo and Team Name */
+  /* Footer Logo and Team Name Flexbox*/
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
 
   margin-top: 1em;
 }
 
 .footer-logo-name img {
+  /* Footer Logo Styling */
   max-width: 30px;
 }
 
@@ -160,7 +162,7 @@ footer {
   gap: 10px;
 }
 
-.fa:hover {
+.fa-brands:hover {
   /* Footer Socials Hover State */
   opacity: 0.5;
 }
@@ -175,6 +177,7 @@ footer {
   /* Footer Nav List Styling*/
   list-style: none;
   padding-left: 0;
+  margin-top: 1.5em;
 }
 
 .footer-copyright {
@@ -256,7 +259,6 @@ header .hero{
   opacity: 1;
   right: 10px;
 }
-
 /*----------------------------------------------*/
 
 
@@ -275,8 +277,6 @@ header .hero{
 
   .header-logo-name p {
     /* Header Team Name Styling */
-    width: 14ch;
-
     margin: auto;
   }
 
@@ -312,6 +312,10 @@ header .hero{
     max-width: 800px;
 
     margin: auto;
+  }
+
+  .footer-logo-name p {
+    width: 11ch;
   }
 }
 
