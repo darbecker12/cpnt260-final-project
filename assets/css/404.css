@@ -2,29 +2,30 @@
 .main{
   margin: 0;
   padding: 0;
-
   width: 100%;
   height: 100vh;
+
+  /*background img css*/
   background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/404-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  /*fonts*/
   color: #efefef;
 }
 
+/*content positioning*/
 .contain{
   padding-top: 5rem;
   max-width: 40ch;
 
-  /*flex*/
   margin: 0 auto;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+/*"oops 404 page not found"*/
 .contain h1{
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -32,6 +33,7 @@
   font-family: 'Manrope', sans-serif;
 }
 
+/*button styling*/
 .contain a{
   border-radius: 4px;
   border: none;
@@ -52,19 +54,22 @@
   transition: 0.5s;
 }
 
+/*hover animation for button*/
 .contain a:after{
   content: '»';
   position: absolute;
   opacity: 0;  
-  top: 14px;
   right: -30px;
   transition: 0.5s;
 }
 
+/*this moves the texts left so arrows fit in*/
 .contain a:hover{
   padding-right: 24px;
   padding-left:8px;
 }
+
+/*this makes the arrows show up*/
 .contain a:hover::after{
   opacity: 1;
   right: 10px;
