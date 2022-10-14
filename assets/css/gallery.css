@@ -1,18 +1,22 @@
 body{
+  /* Background color*/
   background: linear-gradient(black,grey);
 }
 
 main{
+  /* Max width for the whole page */
   max-width: 1400px;
   margin: auto;
 }
 
 main h1{
+  /* Header styling */
   color: white;
   text-align: center;
 }
 
 .gallery-container{
+  /* Setting the grid layout for the gallery */
   margin: 0 3em;
   margin-bottom: 2em;
   display: grid;
@@ -23,6 +27,7 @@ main h1{
 }
 
 .keyboard{
+  /* Style for the individual cards */
   border: 1px solid black;
   box-shadow: 2px 2px 5px 0px pink;
   text-align: center;
@@ -30,17 +35,21 @@ main h1{
 }
 
 .keyboard h2, .keyboard p{
+  /* Text styling for the cards */
   text-align: center;
   text-decoration: none;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
+  font-weight:bolder;
 }
 
 .keyboard p {
+  /* Padding for the description text */
   padding: 0 1em;
 }
 
 .gallery-container img{
+  /* height and width for the images*/
   width: 85%;
   height: 55%;
 
@@ -48,12 +57,14 @@ main h1{
 }
 
 .keyboard:hover{
+  /* Hover styling for the card*/
   background-color: grey;
   border: 2px solid blue;
 }
 
 @media (max-width: 600px){
   .gallery-container{
+    /* Mobile page settings for the gallery */
     margin: 0 1.5em;
     margin-bottom: 2em;
     display: grid;

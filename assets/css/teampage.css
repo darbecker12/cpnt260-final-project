@@ -1,49 +1,55 @@
 main{
+  /* Background Colour and setting the minimum height */
   background: linear-gradient(black,grey);
   min-height: 100vh;
 }
 
 main h1{
+  /* Team member name colours and aligning text */
   color: white;
   text-align: center;
 }
 
 .team-contain{
+/* Container box for each person */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 30px;
   flex-wrap: wrap;
-
   margin: 0 1.5em;
   margin-bottom: 2em;
 }
 
 .team{
+  /* Styling for each team member's box */
   text-align: center; 
   border: 1px solid black;
   border-radius: 20px;
   width: 400px;
-  height: 400px;
+  height: 450px;
   box-shadow: 2px 2px 5px 0px pink;
   background: rgba(250, 3, 196, 0.1);
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
 }
 
 .team img{
+  /* Width and border radius for the images for each person */
   width: 50%;  
   border-radius: 50%;
 }
 
-a, a:visited{
-  text-decoration: none;
-  color: white;
-  font-family: 'Manrope', sans-serif;
-  object-fit: cover;
+.github-logo{
+  /* Setting the height and width along with padding for the github logo */
+  padding: 10px;
+  height: 15%;
+  width: 15%;
 }
 
 @media only screen and (min-width: 40em) {
+  /* Mobile screen styling for max width */
   .team-contain {
     max-width: 1000px;
     margin: 2em auto;
