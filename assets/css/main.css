@@ -143,6 +143,8 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 5px;
+
+  margin-top: 1em;
 }
 
 .footer-logo-name img {
@@ -151,12 +153,11 @@ footer {
 
 .footer-socials {
   /* Footer Socials Section */
-  text-align: center;
-}
-
-.fa-facebook, .fa-twitter {
-  /* Footer Social Logos */
-  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em auto;
+  gap: 10px;
 }
 
 .fa:hover {
@@ -331,6 +332,11 @@ header .hero{
 /*----------------------------------------------*/
 
 /*-------------------CONTACT--------------------*/
+
+/* main element styling */
+.contact-us-main {
+  flex: auto;
+}
 
 /*positioning for the entire form div*/
 .form{
