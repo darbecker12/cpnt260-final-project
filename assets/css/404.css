@@ -1,0 +1,71 @@
+/*-------------------404 page css--------------*/
+.main{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/404-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /*fonts*/
+  color: #efefef;
+}
+
+.contain{
+  padding-top: 5rem;
+  max-width: 40ch;
+
+  /*flex*/
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contain h1{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+
+  font-family: 'Manrope', sans-serif;
+}
+
+.contain a{
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  margin: 36px;
+
+  border: 4px solid #1BA098; /*f92c85*/
+  color: #1BA098;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contain a:after{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.contain a:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+.contain a:hover::after{
+  opacity: 1;
+  right: 10px;
+}
