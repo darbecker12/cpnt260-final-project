@@ -177,6 +177,8 @@ footer {
 .footer-copyright {
   /* Footer Copyright Text */
     text-align: center;
+
+    padding: 0em 1em 1em;
 }
 
 /*-------------------404 page css--------------*/
