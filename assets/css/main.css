@@ -45,12 +45,14 @@ a, a:visited {
 
 .header-menu-link {
   /* Hamburger Menu Icon */
-  width: 30px;
-  padding: 1em;
+  padding: 1.5em;
 
   transition-duration: 0.5s;
 
   color: #fff;
+
+  background: none;
+  border: none;
 }
 
 .header-logo-name {
@@ -152,7 +154,7 @@ footer {
   text-align: center;
 }
 
-.fa {
+.fa-facebook, .fa-twitter {
   /* Footer Social Logos */
   width: 20px;
 }
