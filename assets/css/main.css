@@ -338,6 +338,12 @@ header .hero{
   flex: auto;
 }
 
+main h1{
+  /* Header styling */
+  color: black;
+  text-align: center;
+}
+
 /*positioning for the entire form div*/
 .form{
   max-width: 45vw;
