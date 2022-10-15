@@ -1,6 +1,7 @@
 # Final Project - Multi-page Website
 - Author: DDR Shop (Dohyeong, Darryl Becker, Rustu Mesut Eser)
 - Live site: [darbecker12.github.io/cpnt260-final-project](https://darbecker12.github.io/cpnt260-final-project/)
+- GitHub Project: [github.com/users/darbecker12/projects/6/](https://github.com/users/darbecker12/projects/6/)
 
 ## Roles and Responsibilities
 - Dohyeong: I did all supporting elements and helped with stylings and ideas on how the website would look.

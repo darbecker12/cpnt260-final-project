@@ -37,6 +37,7 @@ a, a:visited {
 }
 
 .header-area-color {
+  /* Header Bar Color */
   background-color: gray;
 }
 
@@ -151,6 +152,7 @@ footer {
 }
 
 .footer-logo-name p {
+  /* Footer Team Name Styling */
   font-size: 20px;
 }
 
@@ -319,16 +321,19 @@ header .hero{
   }
 
   .footer-logo-name p {
+    /* Footer Team Name Styling */
     width: 11ch;
   }
 }
 
 @media (max-width: 43em){
   header .hero {
+    /* Hero Section Main Container Styling */
     height: 85vh;
   }
 
   .info {
+    /* Hero Section Text CTA Container */
     max-width: 40ch;
     margin: 1em auto;
   }
