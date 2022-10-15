@@ -266,7 +266,7 @@ header .hero{
 /*----------------------------------------------*/
 
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 43em) {
   .header-area {
     /* Header Logo-Nav Main Flexbox */
     flex-direction: row;
@@ -323,7 +323,7 @@ header .hero{
   }
 }
 
-@media (max-width: 40em){
+@media (max-width: 43em){
   header .hero {
     height: 85vh;
   }

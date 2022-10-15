@@ -64,7 +64,7 @@ main h1{
   border: 2px solid blue;
 }
 
-@media (max-width: 600px){
+@media (max-width: 43em){
   .gallery-container{
     /* Mobile page settings for the gallery */
     margin: 0 1.5em;

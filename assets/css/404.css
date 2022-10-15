@@ -71,7 +71,7 @@
   right: 10px;
 }
 
-@media (max-width: 40em){
+@media (max-width: 43em){
   .contain{
     padding-top: 3rem;
   }

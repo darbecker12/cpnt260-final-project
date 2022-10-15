@@ -20,9 +20,13 @@
 - [Google Fonts](https://fonts.google.com/)
     - [Poppins](https://fonts.google.com/specimen/Poppins)
     - [Manrope](https://fonts.google.com/specimen/Manrope)
+
+### Images
+#### Background Images
 - [Home Page Background Image](https://www.shutterstock.com/image-photo/top-view-office-733243111)
 - [404 Page not Found Background Image](https://www.pexels.com/photo/gray-wooden-maze-3715428/)
-Keyboard Images:
+
+#### Keyboard Images
 - [Black Keyboard](https://unsplash.com/photos/JALTDvehvAw)
 - [Fish Keyboard](https://unsplash.com/photos/L4Bi4Zfb6Ls)
 - [Blue, Black and Red Keyboard](https://unsplash.com/photos/lL_xP4CEXaY)
