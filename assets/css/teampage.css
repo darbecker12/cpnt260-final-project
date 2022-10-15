@@ -31,7 +31,7 @@ main h1{
   box-shadow: 2px 2px 5px 0px pink;
   background: rgba(250, 3, 196, 0.1);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
   font-weight: bolder;
 
   display: flex;
@@ -57,7 +57,7 @@ main h1{
   width: 15%;
 }
 
-@media only screen and (min-width: 43em) {
+@media only screen and (min-width: 40em) {
   /* Mobile screen styling for max width */
   .team-contain {
     max-width: 1000px;

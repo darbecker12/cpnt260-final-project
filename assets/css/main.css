@@ -1,5 +1,6 @@
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-weight: 300;
   line-height: 1.5;
 }
 
@@ -14,7 +15,7 @@ body {
 
 .full-page-bg {
   /* Homepage Background */
-  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/home-bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.750)),url('../images/background/home-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -38,7 +39,7 @@ a, a:visited {
 
 .header-area-color {
   /* Header Bar Color */
-  background-color: gray;
+  background-color: hsl(0,0%,35%);
 }
 
 .header-menu-bar {
@@ -72,7 +73,7 @@ a, a:visited {
 .header-logo-name p {
   /* Header Team Name Styling */
   font-size: 20px;
-  width: 11ch;
+  width: 12ch;
   color: white;
 }
 
@@ -223,7 +224,7 @@ header .hero{
   margin-bottom: 1rem;
   color: #Deb992; 
 
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope','Tahoma', sans-serif;
 }
 
 /*----------------button styling and hover effects------*/
@@ -268,7 +269,7 @@ header .hero{
 /*----------------------------------------------*/
 
 
-@media only screen and (min-width: 43em) {
+@media only screen and (min-width: 40em) {
   .header-area {
     /* Header Logo-Nav Main Flexbox */
     flex-direction: row;
@@ -322,11 +323,11 @@ header .hero{
 
   .footer-logo-name p {
     /* Footer Team Name Styling */
-    width: 11ch;
+    width: 12ch;
   }
 }
 
-@media (max-width: 43em){
+@media (max-width: 40em){
   header .hero {
     /* Hero Section Main Container Styling */
     height: 85vh;

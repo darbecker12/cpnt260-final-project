@@ -38,7 +38,7 @@ main h1{
   /* Text styling for the cards */
   text-align: center;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
   color: white;
   font-weight:bolder;
 }
@@ -64,7 +64,7 @@ main h1{
   border: 2px solid blue;
 }
 
-@media (max-width: 43em){
+@media (max-width: 40em){
   .gallery-container{
     /* Mobile page settings for the gallery */
     margin: 0 1.5em;

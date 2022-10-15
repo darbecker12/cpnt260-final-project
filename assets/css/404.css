@@ -5,7 +5,7 @@
   flex: auto;
 
   /*background img css*/
-  background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/404-bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.920),rgba(0, 0, 0, 0.800)),url('../images/background/404-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,7 +26,7 @@
   font-size: 4rem;
   margin: 1rem auto;
 
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope','Tahoma', sans-serif;
 }
 
 /*button styling*/
@@ -71,7 +71,7 @@
   right: 10px;
 }
 
-@media (max-width: 43em){
+@media (max-width: 40em){
   .contain{
     padding-top: 3rem;
   }

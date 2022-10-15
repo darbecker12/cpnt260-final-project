@@ -2,13 +2,17 @@
 - Author: DDR Shop (Dohyeong, Darryl Becker, Rustu Mesut Eser)
 - Live site: [darbecker12.github.io/cpnt260-final-project](https://darbecker12.github.io/cpnt260-final-project/)
 - GitHub Project: [github.com/users/darbecker12/projects/6/](https://github.com/users/darbecker12/projects/6/)
+- One keywords that helped us with gallery/shop page design was `css grid gallery`. [CSS-Trick Grid guide](https://css-tricks.com/snippets/css/complete-guide-grid/) was really helpful.
+- Few keywords that helped us with hamburger menu were `js hamburger menu`, `css hamburger menu` and `html hamburger menu`. [w3School mobile navigation menu](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) page gave some idea about how to do hamburger menu.
+- 404 Not found page can be accessed with [darbecker12.github.io/cpnt260-final-project/404.html](https://darbecker12.github.io/cpnt260-final-project/404.html)
+
 
 ## Roles and Responsibilities
 - Dohyeong: I did all supporting elements and helped with stylings and ideas on how the website would look.
 
 - Darryl Becker: I made and styled the gallery/shop page along with the team page.
 
-- Rustu Mesut Eser: I did the footer and header, and fixed errors on website.
+- Rustu Mesut Eser: I did the footer/header and their styling along with base page layout, and fixed general errors on website.
 
 ## Attributions
 - [Box Shadow Generator for Highlighting Current Page with inset shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator)
@@ -16,6 +20,7 @@
 - [Hamburger Menu with JavaScript by Ryan(@veeneck)](https://codepen.io/veeneck/pen/odLvQz)
 - [jquery CDN](https://cdnjs.com/libraries/jquery)
 - [Formspree](https://formspree.io/)
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Font Awesome Icons (Facebook, Twitter, GitHub and Team Logo) and CDN](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
