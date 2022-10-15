@@ -13,6 +13,7 @@ body {
 }
 
 .full-page-bg {
+  /* Homepage Background */
   background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.514)),url('../images/background/home-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -23,6 +24,8 @@ a, a:visited {
   /* Anchor Link Styling */
   text-decoration: none;
   color: black;
+
+  font-size: 18px;
 }
 
 .header-area {
@@ -67,9 +70,8 @@ a, a:visited {
 
 .header-logo-name p {
   /* Header Team Name Styling */
-  font-size: 18px;
+  font-size: 20px;
   width: 11ch;
-
   color: white;
 }
 
@@ -148,6 +150,10 @@ footer {
   margin-top: 1em;
 }
 
+.footer-logo-name p {
+  font-size: 20px;
+}
+
 .footer-logo-name img {
   /* Footer Logo Styling */
   max-width: 30px;
@@ -183,8 +189,6 @@ footer {
 .footer-copyright {
   /* Footer Copyright Text */
     text-align: center;
-
-    padding: 0em 1em 1em;
 }
 
 /*------------------Hero--------------------*/
@@ -203,7 +207,7 @@ header .hero{
 
 .info{
   padding-top: 5rem;
-  max-width: 40ch;
+  max-width: 50ch;
 
   /*flex*/
   margin: 0 auto;
@@ -319,9 +323,19 @@ header .hero{
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 40em){
+  header .hero {
+    height: 85vh;
+  }
+
+  .info {
+    max-width: 40ch;
+    margin: 1em auto;
+  }
+
   .info h1{
-    font-size: 2rem;
+    font-size: 3.5rem;
+    margin: 1rem;
   }
 
   .info a{

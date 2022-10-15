@@ -2,8 +2,7 @@
 .main{
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100vh;
+  flex: auto;
 
   /*background img css*/
   background: linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.733)),url('../images/background/404-bg.jpg');
@@ -16,19 +15,16 @@
 
 /*content positioning*/
 .contain{
-  padding-top: 5rem;
   max-width: 40ch;
 
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
   text-align: center;
 }
 
 /*"oops 404 page not found"*/
 .contain h1{
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 
   font-family: 'Manrope', sans-serif;
 }
@@ -75,9 +71,14 @@
   right: 10px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 40em){
+  .contain{
+    padding-top: 3rem;
+  }
+  
   .contain h1{
-    font-size: 2rem;
+    font-size: 3.5rem;
+    margin: 1rem;
   }
 
   .contain a{

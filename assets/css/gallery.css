@@ -46,6 +46,8 @@ main h1{
 .keyboard p {
   /* Padding for the description text */
   padding: 0 1em;
+
+  font-size: 16px;
 }
 
 .gallery-container img{
