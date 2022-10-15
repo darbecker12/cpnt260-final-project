@@ -11,7 +11,7 @@ main h1{
   /* Header styling */
   color: black;
   text-align: center;
-  
+
   margin: 1em auto;
   max-width: 20ch;
 }
@@ -34,7 +34,7 @@ main h1{
   justify-content: center;
   align-items: center;
 
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
 /*spacing for each input types and background color for them*/
