@@ -1,43 +1,79 @@
 body{
+  /* Background color*/
   background: linear-gradient(black,grey);
 }
 
+main{
+  /* Max width for the whole page */
+  max-width: 1400px;
+  margin: auto;
+}
+
+main h1{
+  /* Header styling */
+  color: white;
+  text-align: center;
+}
+
 .gallery-container{
-  margin: 2em;
+  /* Setting the grid layout for the gallery */
+  margin: 0 3em;
+  margin-bottom: 2em;
   display: grid;
-  grid-template-columns:repeat(auto-fill, minmax(350px, auto));
-  grid-auto-rows: minmax(400px, auto);
+  grid-template-columns:repeat(auto-fill, minmax(400px, auto));
+  grid-auto-rows: minmax(400px, 400px);
   gap: 20px;
   justify-content: center;
 }
 
-a{
+.keyboard{
+  /* Style for the individual cards */
   border: 1px solid black;
   box-shadow: 2px 2px 5px 0px pink;
   text-align: center;
-  text-decoration: none;
-  color: white;
   background: rgba(250, 3, 196, 0.1);
-  text ;
 }
 
-img{
-  width:330px;
-  height: 250px;
+.keyboard h2, .keyboard p{
+  /* Text styling for the cards */
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  color: white;
+  font-weight:bolder;
 }
-a:hover{
+
+.keyboard p {
+  /* Padding for the description text */
+  padding: 0 1em;
+
+  font-size: 16px;
+}
+
+.gallery-container img{
+  /* height and width for the images*/
+  width: 85%;
+  height: 55%;
+
+  object-fit: cover;
+}
+
+.keyboard:hover{
+  /* Hover styling for the card*/
   background-color: grey;
   border: 2px solid blue;
-  
 }
 
-@media (max-width: 600px){
+@media (max-width: 40em){
   .gallery-container{
-    margin: 5em;
+    /* Mobile page settings for the gallery */
+    margin: 0 1.5em;
+    margin-bottom: 2em;
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-auto-rows: minmax(400px, auto);
     gap: 20px;
     justify-content: center;
+    }
 }
 }

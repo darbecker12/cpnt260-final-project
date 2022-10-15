@@ -1,0 +1,90 @@
+/*-------------------404 page css--------------*/
+.main{
+  margin: 0;
+  padding: 0;
+  flex: auto;
+
+  /*background img css*/
+  background: linear-gradient(rgba(0, 0, 0, 0.920),rgba(0, 0, 0, 0.800)),url('../images/background/404-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #Deb992;
+}
+
+/*content positioning*/
+.contain{
+  max-width: 40ch;
+
+  margin: auto;
+  text-align: center;
+}
+
+/*"oops 404 page not found"*/
+.contain h1{
+  font-size: 4rem;
+  margin: 1rem auto;
+
+  font-family: 'Manrope','Tahoma', sans-serif;
+}
+
+/*button styling*/
+.contain a{
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  margin: 36px;
+
+  border: 4px solid #1BA098; /*f92c85*/
+  color: #1BA098;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/*hover animation for button*/
+.contain a:after{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  right: -30px;
+  transition: 0.5s;
+}
+
+/*this moves the texts left so arrows fit in*/
+.contain a:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+/*this makes the arrows show up*/
+.contain a:hover::after{
+  opacity: 1;
+  right: 10px;
+}
+
+@media (max-width: 40em){
+  .contain{
+    padding-top: 3rem;
+  }
+  
+  .contain h1{
+    font-size: 3.5rem;
+    margin: 1rem;
+  }
+
+  .contain a{
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 170px;
+    border: 3px solid #1BA098;
+  }
+}

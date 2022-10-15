@@ -1,0 +1,353 @@
+*{
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  /* Base Layout Styling */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+.full-page-bg {
+  /* Homepage Background */
+  background: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.750)),url('../images/background/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a, a:visited {
+  /* Anchor Link Styling */
+  text-decoration: none;
+  color: black;
+
+  font-size: 18px;
+}
+
+.header-area {
+  /* Header Logo-Nav Main Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.header-area-color {
+  /* Header Bar Color */
+  background-color: hsl(0,0%,35%);
+}
+
+.header-menu-bar {
+  /* Header Team Name/Logo and Hamburger Menu Flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu-link {
+  /* Hamburger Menu Icon */
+  padding: 1.5em;
+
+  transition-duration: 0.5s;
+
+  color: #fff;
+
+  background: none;
+  border: none;
+}
+
+.header-logo-name {
+  /* Header Team Name/Logo Flexbox */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  padding-left: 1em;
+}
+
+.header-logo-name p {
+  /* Header Team Name Styling */
+  font-size: 20px;
+  width: 12ch;
+  color: white;
+}
+
+.header-logo-name img {
+  /* Header Logo Styling */
+  max-width: 30px;
+}
+
+.header-nav {
+  /* Header Navigation Links */
+  clear: both;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-out;
+}
+
+.header-nav.open {
+  /* Header Navigation Links Open State */
+  max-height: 20em;
+}
+
+.header-nav a {
+  /* Header Nav Button Styling */
+  display: block;
+  padding: 1em;
+
+  color: white;
+}
+
+.header-nav ul {
+  /* Header Nav List Styling */
+  list-style: none;
+
+  padding-left: 0;
+
+  margin: auto;
+}
+
+.header-nav a:hover {
+  /* Header Nav Button Hover State Styling */
+  background-color: rgba(255, 255, 255, 0.144);
+  transition: all 200ms ease-out;
+}
+
+.header-nav a.active-page {
+  /* Header Nav Button Current Page Highlight */
+  font-weight: 700;
+}
+
+footer {
+  /* Footer Area */
+  background-color: lightgray;
+}
+
+.footer-area {
+  /* Footer Main Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.footer-logo-socials {
+  /* Footer Logo and Socials Flexbox*/
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-name {
+  /* Footer Logo and Team Name Flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 1em;
+}
+
+.footer-logo-name p {
+  /* Footer Team Name Styling */
+  font-size: 20px;
+}
+
+.footer-logo-name img {
+  /* Footer Logo Styling */
+  max-width: 30px;
+}
+
+.footer-socials {
+  /* Footer Socials Section */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em auto;
+  gap: 10px;
+}
+
+.fa-brands:hover {
+  /* Footer Socials Hover State */
+  opacity: 0.5;
+}
+
+.footer-nav a {
+  /* Footer Nav Button Styling */
+  display: block;
+  padding: 0.5em;
+}
+
+.footer-nav ul {
+  /* Footer Nav List Styling*/
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5em;
+}
+
+.footer-copyright {
+  /* Footer Copyright Text */
+    text-align: center;
+}
+
+/*------------------Hero--------------------*/
+header .hero{
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100vh;
+  
+  /*fonts*/
+  color: #efefef;
+}
+
+.info{
+  padding-top: 5rem;
+  max-width: 50ch;
+
+  /*flex*/
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info h1{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #Deb992; 
+
+  font-family: 'Manrope','Tahoma', sans-serif;
+}
+
+/*----------------button styling and hover effects------*/
+.info a{
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  margin: 36px;
+
+  border: 4px solid #1BA098; /*f92c85*/
+  color: #1BA098;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.info a:after{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.info a:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  background-color: white;
+}
+.info a:hover::after{
+  opacity: 1;
+  right: 10px;
+}
+/*----------------------------------------------*/
+
+
+@media only screen and (min-width: 40em) {
+  .header-area {
+    /* Header Logo-Nav Main Flexbox */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo-name {
+    /* Header Team Name and Logo Flexbox */
+    padding-left: 1em;
+  }
+
+  .header-logo-name p {
+    /* Header Team Name Styling */
+    margin: auto;
+  }
+
+  .header-menu-link {
+    /* Hamburger Menu Icon */
+    display: none;
+  }
+
+  .header-nav {
+    /* Header Navigation Links */
+    max-height: none;
+  }
+
+  .header-nav ul {
+    /* Header Nav List Styling */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header-nav a.active-page {
+    /* Header Nav Button Current Page Highlight */
+    font-weight: normal;
+
+    box-shadow: inset 0 3px 0 0 blue;
+  }
+
+  .footer-area {
+    /* Footer Main Flexbox */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    max-width: 800px;
+
+    margin: auto;
+  }
+
+  .footer-logo-name p {
+    /* Footer Team Name Styling */
+    width: 12ch;
+  }
+}
+
+@media (max-width: 40em){
+  header .hero {
+    /* Hero Section Main Container Styling */
+    height: 85vh;
+  }
+
+  .info {
+    /* Hero Section Text CTA Container */
+    max-width: 40ch;
+    margin: 1em auto;
+  }
+
+  .info h1{
+    font-size: 3.5rem;
+    margin: 1rem;
+  }
+
+  .info a{
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 170px;
+    border: 3px solid #1BA098;
+  }
+}
